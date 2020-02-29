@@ -3,10 +3,19 @@ using System.Collections.Generic;
 
 namespace Exercise3_Cal
 {
-    public class Program
+     class Program
     {
-        public static void Main()
+         static void Main(string[] args)
         {
+            //{
+            //    if (args.Length == 0)
+            //    {
+            //        Console.WriteLine("Would you like to multiply or square.");
+            //        string mathOperation = Console.ReadLine();
+            //        Console.WriteLine("Enter a list of numbers:") 
+            //    }
+
+            //}
             List<int> Numbers = new List<int>() {
             2,4,5
             };
