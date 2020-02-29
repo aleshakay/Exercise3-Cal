@@ -1,12 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Exercise3_Cal
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            List<int> Numbers = new List<int>() {
+            2,4,5
+            };
+            Console.WriteLine("List: ");
+            foreach(int i in Numbers)
+            {
+                Console.WriteLine(i);
+            }
+            int mult = 1;
+            foreach(int i in Numbers)
+            {
+                mult = mult * i;
+            }
+            Console.WriteLine("Total multipled numbers: {0}", mult);
         }
     }
 }
